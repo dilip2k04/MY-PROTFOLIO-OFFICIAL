@@ -805,7 +805,7 @@
         </div>
       </div>
       <div class="feat-card reveal reveal-delay-1" onclick="openModal('uae')">
-        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700&h=300&fit=crop" class="feat-img" alt="UAE Landing Page"/>
+        <img src="./img/iq-bridge1.png" class="feat-img" alt="UAE Landing Page"/>
         <div class="feat-overlay"></div>
         <div class="feat-body">
           <div class="feat-cat"><i class="fa-solid fa-globe"></i>&nbsp;Client Work · Apr 2025</div>
@@ -880,7 +880,7 @@
     <!-- Card 2: UAE -->
     <div class="project-card visible" data-cat="client" onclick="openModal('uae')">
       <div class="proj-img-wrap">
-        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700&h=300&fit=crop" class="proj-img" alt="UAE Landing Page"/>
+        <img src="./img/iq-bridge1.png" class="proj-img" alt="UAE Landing Page"/>
         <div class="proj-overlay">
           <a href="https://iqbridge.org/" target="_blank" class="pob pob-acid" onclick="e=>e.stopPropagation()">Live Site</a>
         </div>
@@ -918,9 +918,9 @@
     <!-- Card 4: Mini E-Commerce -->
     <div class="project-card visible" data-cat="mobile" onclick="openModal('miniecart')">
       <div class="proj-img-wrap">
-        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=700&h=300&fit=crop" class="proj-img" alt="Mini E-Commerce"/>
+        <img src="./img/torque-toyzz1.png" class="proj-img" alt="Mini E-Commerce"/>
         <div class="proj-overlay"></div>
-        <div class="proj-cat-pill">Mobile App</div>
+        <div class="proj-cat-pill">Web App</div>
       </div>
       <div class="proj-body">
         <div class="proj-num">04 · Jan 2025</div>
@@ -952,7 +952,7 @@
     <!-- Card 6: SAP -->
     <div class="project-card visible" data-cat="client" onclick="openModal('sap')">
       <div class="proj-img-wrap">
-        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=700&h=300&fit=crop" class="proj-img" alt="SAP"/>
+        <img src="./img/sap1.png" class="proj-img" alt="SAP"/>
         <div class="proj-overlay"></div>
         <div class="proj-cat-pill">Client Work</div>
       </div>
@@ -1291,7 +1291,7 @@ const projects = {
     title: "UAE Client Landing Page",
     cat: "Client Work",
     date: "Apr 2025",
-    img: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900&h=300&fit=crop",
+    img: "./img/iq-bridge1.png",
     stack: ["React.js","Express.js","Node.js","MongoDB","SEO","Vercel"],
     desc: "A high-performance, SEO-optimised, fully responsive landing page designed and developed for an international client based in the UAE. Focused on Core Web Vitals performance, conversion-driven UI patterns, and accessibility.",
     features: [
@@ -1303,8 +1303,8 @@ const projects = {
     ],
     metrics: [{n:"A+",l:"Lighthouse Score"},{n:"<1.5s",l:"LCP"},{n:"Live",l:"In Production"}],
     imgs: [
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=220&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=220&fit=crop"
+      "./img/iq-bridge2.png",
+      "./img/iq-bridge3.png"
     ],
     liveUrl: "https://iqbridge.org/",
     githubUrl: null
@@ -1333,10 +1333,10 @@ const projects = {
   },
   miniecart: {
     title: "Mini E-Commerce (Torque Toyzz)",
-    cat: "Mobile App",
+    cat: "Web App",
     date: "Jan 2025",
-    img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=900&h=300&fit=crop",
-    stack: ["React","google-spreadsheet API","WhatsApp Business API","CSS3"],
+    img: "./img/torque-toyzz1.png",
+    stack: ["React","google-spreadsheet API","WhatsApp Business API","Tailwind CSS","Vite"],
     desc: "A creative frontend-only mini e-commerce mobile application. Users can browse products, add to cart, and place orders — all without any traditional backend. Orders fire directly to the admin's WhatsApp and store in Google Sheets.",
     features: [
       {icon:"fa-cart-shopping", text:"<strong>Full shopping experience</strong> — product browsing, cart management, and checkout flow — zero backend required."},
@@ -1346,11 +1346,11 @@ const projects = {
     ],
     metrics: [{n:"0",l:"Backend Needed"},{n:"WA",l:"Order Delivery"},{n:"Sheets",l:"Database"}],
     imgs: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=400&h=220&fit=crop",
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=220&fit=crop"
+      "./img/torque-toyzz2.png",
+      "./img/torque-toyzz3.png"
     ],
-    liveUrl: null,
-    githubUrl: "https://github.com/dilip2k04"
+    liveUrl: "https://www.torquetoyzz.com/",
+    githubUrl: null
   },
   elearning: {
     title: "E-Learning Platform MVP",
@@ -1378,7 +1378,7 @@ const projects = {
     title: "Sampath Kumar Academy of Physics",
     cat: "Client Work",
     date: "Jul 2025",
-    img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&h=300&fit=crop",
+    img: "./img/sap1.png",
     stack: ["React","Node.js","Firebase","MongoDB","CSS Animations"],
     desc: "A responsive educational landing page designed for Sampath Kumar Academy of Physics. Showcases courses, faculty expertise, student achievements, and contact information with a modern UI and seamless user experience.",
     features: [
@@ -1390,8 +1390,8 @@ const projects = {
     ],
     metrics: [{n:"100%",l:"Responsive"},{n:"Live",l:"Production"},{n:"A",l:"Performance"}],
     imgs: [
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=220&fit=crop",
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=220&fit=crop"
+      "./img/sap2.png",
+      "./img/sap3.png"
     ],
     liveUrl: null,
     githubUrl: "https://github.com/dilip2k04"
